@@ -6,6 +6,10 @@ Prerequisites:
 - Your CESI Unit has been on-boarded to AAP and you have been added to your team's Org
   - If your team has not been on-boarded you may do so [here](https://tdx.umn.edu/TDClient/31/Portal/Requests/ServiceDet?ID=636)
 
+Guides:
+- [General Information on Collections](https://docs.ansible.com/ansible/latest/collections_guide/index.html)
+- [Creating Collecions](https://docs.ansible.com/ansible/latest/dev_guide/developing_collections.html)
+
 ## How to use this template
 
 1. Click on the Green button above, "Use this template", and select "Create a new repository"
