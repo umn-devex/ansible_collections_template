@@ -1,4 +1,4 @@
-# Ansible_collections_Template
+# ansible_collections_Template
 
 Use this repo to create an ansible collection and add it to U of MN AAP Automaiton Hub
 
@@ -20,5 +20,5 @@ Guides:
 3. If you are not creating plug-ins you can delete that folder
 4. Add your roles to the 'roles' folder
 5. (Optional) Adjust the meta/runtime.yml file to reflect which versions of ansible this collection is appropriate for
-6. In Either your team's Github Org or the new repository create a Actions Secret named `AAP_HUB_TOKEN` and the value will come from generating a token [here](https://platform.aapjecq2y5bgr4mu.ansiblecloud.redhat.com/content/api-token)
-7. Whenever you update your collection, make sure to update the version in the `galaxy.ynl` file and merge into the 'main' branch.  This will trigger the github action to publish the updated collection.
+6. In either the Github Org or repo, create a Actions Secret named `AAP_HUB_TOKEN` and the value will come from generating a token [here](https://platform.aapjecq2y5bgr4mu.ansiblecloud.redhat.com/content/api-token)
+7. When ever you update your collection, make sure to update the version in the `galaxy.yl` file and merge into the 'main' branch.  This will trigger the github action to publish the updated collection.
